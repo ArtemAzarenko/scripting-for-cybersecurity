@@ -1,0 +1,61 @@
+======================================================================
+LAB 6: INVESTIGATION LOG & EXERCISE RESPONSES
+======================================================================
+
+EXERCISE 1 RESPONSES
+--------------------
+1 & 2 & 3: Handled interactively during active session testing.
+4. Difference between wc methods:
+   - 'wc -l case/logs/auth.log' prints BOTH the line count and the filepath name.
+   - 'wc -l < case/logs/auth.log' redirects the file contents into standard input, printing ONLY the numeric count value cleanly.
+5. Removing quotes from "$TOP_ATTACKERS" strips the newline characters, collapsing all lines into a single line spaced sequentially.
+6. Execution snippet: 
+   echo "Sqlmap Requests: $(grep -c 'sqlmap' case/logs/access.log) ($(( $(grep -c 'sqlmap' case/logs/access.log) * 100 / $(wc -l < case/logs/access.log) ))%)"
+
+EXERCISE 2 RESPONSES
+--------------------
+1. $3 displays the 3rd token string passed; $# returns 3.
+2. $1 displays blank/nothing; $# evaluates to 0.
+3. A script flags $# to verify critical variables are loaded before execution so it does not fail abruptly due to missing parameters.
+4. $# returns the count of files located within that relative folder path because the system shell auto-expands the glob operator.
+5. Without quotes, search.sh reads 'password' as keyword parameters instead of anchoring it cleanly to 'Accepted'.
+6. 203.0.113.200 was tracked across logs. It appeared heavily inside firewall.log and access.log.
+
+EXERCISE 3 RESPONSES
+--------------------
+1. Exit code returns 1 because the relative reference path looking for 'case/logs/auth.log' breaks when executed from inside case itself.
+2. Unique numeric errors allow automated parent orchestration engines or condition hooks (like && or ||) to classify exact breakage root causes without running screen parsing regex tools.
+3. Execution codes tracked are: 0 (Successful file trace), 1 (Missing inputs), 2 (Path does not exist).
+4. '2>' isolates Standard Error (stderr) streams exclusively into a target file instead of outputting them directly onto the screen console.
+5. Drift metrics found structural alterations involving port allocations and security definitions. Sec ops teams prioritize authentication changes.
+6. Snippet: ./config_drift.sh case/config-old.txt case/config-new.txt > /dev/null && echo "NO DRIFT" || echo "DRIFT DETECTED"
+
+EXERCISE 4: LOG ANALYSIS TABLE
+------------------------------
+File                      Lines   Failed logins   First timestamp   Last timestamp
+case/logs/auth.log        3412    2943            Feb 17 08:00:03   Feb 17 08:46:01
+../lab03-data/auth.log    9514    8342            Feb 17 08:00:03   Feb 17 10:15:22
+
+EXERCISE 5 RESPONSES
+--------------------
+1. Evaluated.
+2. Using -z flips conditions to flag items only if string inputs are missing.
+3. grep -c exits 0 even if occurrences count to 0, because the engine successfully scanned the target container with no internal script platform faults.
+4. Applied directly inside logstats.sh source code safely.
+
+EXERCISE 6 RESPONSES
+--------------------
+1 & 2. Buggy validations complete; error exits verified via exit code 1 hooks.
+3. Checked. No hanging blocks found.
+
+PART 8: INVESTIGATION CHALLENGE
+-------------------------------
+1. Collected Log Top Attacker: 192.0.2.45
+   Server Log Top Attacker: 203.0.113.111
+   The ranking is DIFFERENT. The collected log is skewed because it was harvested before the comprehensive attack completed. Relying on it alone would target the wrong IP.
+2. The term 'invalid' surfaces because basic spacing filters grab 'invalid' on lines containing "Failed password for invalid user...". Refining script parameters isolates usernames dynamically.
+3. The report-web.txt output is not meaningful for web data because web layers (access.log) track HTTP methods rather than SSH structures like "Failed password".
+4. Reasons why blocked IPs appear in auth.log:
+   - The firewall policy was deployed *after* those initial authentication tracks hit the system.
+   - The firewall rules might be configured to 'Log and Allow' or look at specific interfaces while ignoring others.
+======================================================================
