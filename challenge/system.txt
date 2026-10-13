@@ -1,0 +1,3 @@
+codespaces-dd2ec2
+/bin/bash
+/root

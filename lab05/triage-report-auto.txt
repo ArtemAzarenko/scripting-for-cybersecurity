@@ -1,0 +1,25 @@
+=========================================
+DIGITAL FORENSIC TRIAGE REPORT
+=========================================
+Analyst:        ARtem
+Case Reference: 45
+Date:           Tue Oct  6 11:33:31 UTC 2026
+=========================================
+
+--- Summary Metrics ---
+Total Files: 10
+Total Directories: 5
+Python Files: 2
+Shell Scripts: 0
+Log Files: 1
+Configuration Files: 1
+Empty Files: 8
+Archives: 0
+
+--- Files Containing 'admin' ---
+case/triage-report.txt
+
+--- Evidence File Types ---
+case/evidence/data.txt: empty
+
+Scripts (Python + shell): 2

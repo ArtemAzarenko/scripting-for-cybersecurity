@@ -1,0 +1,8 @@
+Linux CLI Revision Report
+User: root
+Host: codespaces-dd2ec2
+Directory: /workspaces/scripting-for-cybersecurity/challenge/revision01
+Shell: /bin/bash
+Python: /home/codespace/.python/current/bin/python3
+Environment varibles: 79
+Python-relared filenames: 6
