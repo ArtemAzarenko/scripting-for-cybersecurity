@@ -1,3 +1,7 @@
+# scripting-for-cybersecurity
+
+This repository contains my practical work for the Scripting for Cybersecurity module. 
+
 ## Labs
 
 - Lab 01 - Development Environment
@@ -5,5 +9,4 @@
 - revision01 - Labs 1 and 2 Revision Exercises
 - Lab 3 - Text Processing and Log Analysis
 - Lab 4 - Finding Files and Working with Data
-- Lab 5 - Finish
-- Lab 6 - 
+- Lab 5 - From Commands to Scripts — Shebangs, Variables and Input
