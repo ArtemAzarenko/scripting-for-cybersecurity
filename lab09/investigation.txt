@@ -1,0 +1,5 @@
+=== LAB 9 FORENSIC ANALYSIS RESPONSE NOTES ===
+1. auth.log contains the most distinct malicious scanner targets, while firewall.log sees the highest repetitive dropped line count packets.
+2. suspicious.dat presents extension abnormalities.
+3. case/nested/archive/old.log was omitted because globs target shallow parameters.
+4. Resilient system layout design handles changes automatically without modifying scripts.

@@ -1,0 +1,45 @@
+=== WORKSTATION FORENSIC SURVEY REPORT ===
+--------------------------------------------------------
+File: case/evidence/archive.zip
+Size: 14 bytes
+Hash: 38acbefd34b9a5ab4ce0cb8a6034b18a9b54a20ed966732cdfac3ffb24eee70f
+Line Count: 1 lines
+--------------------------------------------------------
+File: case/evidence/image.png
+Size: 14 bytes
+Hash: 66e7038a8238336a956874ee119ea9509acb27a24b723f2034000107f6e92b63
+Line Count: 1 lines
+--------------------------------------------------------
+File: case/evidence/notes.txt
+Size: 15 bytes
+Hash: 4c17022ae64883ce8e511e42b47fe940d94ccee6a04be3823c1fcab8a2221f79
+Line Count: 1 lines
+--------------------------------------------------------
+File: case/evidence/suspicious.dat
+Size: 14 bytes
+Hash: 350e21fbabf2b6e5000c3a62d3daeba2ec531715718d44608f8f612b9bf21200
+Line Count: 1 lines
+--------------------------------------------------------
+File: case/logs/access.log
+Size: 86 bytes
+Hash: 6f86a47a203732136bf56015823af57017622b23d3afc8bfad703bc75d9f2078
+Line Count: 1 lines
+Threat Profile: Matches 1 threat indicators
+--------------------------------------------------------
+File: case/logs/auth.log
+Size: 358 bytes
+Hash: 6815736aafbb59d5111d38f9369668b9cc43ee6f42faa504c499972b9be76bd5
+Line Count: 4 lines
+Threat Profile: Matches 1 threat indicators
+--------------------------------------------------------
+File: case/logs/firewall.log
+Size: 84 bytes
+Hash: cbd2168a3d8e10e7231d85959b39df83190f3d9267cd08e39f891e0f9e5b0bfe
+Line Count: 1 lines
+Threat Profile: Matches 1 threat indicators
+========================================================
+===             FINAL RUNTIME SUMMARY METRICS        ===
+========================================================
+Total files surveyed           : 7
+Total extension mismatches (!!) : 0
+Total global IOC matches found : 3

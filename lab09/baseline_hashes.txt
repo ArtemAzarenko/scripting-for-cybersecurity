@@ -1,0 +1,4 @@
+38acbefd34b9a5ab4ce0cb8a6034b18a9b54a20ed966732cdfac3ffb24eee70f  case/evidence/archive.zip
+66e7038a8238336a956874ee119ea9509acb27a24b723f2034000107f6e92b63  case/evidence/image.png
+4c17022ae64883ce8e511e42b47fe940d94ccee6a04be3823c1fcab8a2221f79  case/evidence/notes.txt
+350e21fbabf2b6e5000c3a62d3daeba2ec531715718d44608f8f612b9bf21200  case/evidence/suspicious.dat
