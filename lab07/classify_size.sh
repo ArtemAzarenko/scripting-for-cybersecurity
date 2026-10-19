@@ -1,4 +1,3 @@
-cat << 'EOF' > classify_size.sh
 #!/bin/bash
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <file>" >&2
@@ -20,4 +19,3 @@ elif [ "$LINES" -lt "$MEDIUM_LIMIT" ]; then
 else
     echo "$FILE is LARGE ($LINES lines)"
 fi
-EOF

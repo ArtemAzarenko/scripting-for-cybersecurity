@@ -1,4 +1,3 @@
-cat << 'EOF' > tls_check.sh
 #!/bin/bash
 CONF=$1
 TLS=$(grep '^tls=' "$CONF" | cut -d'=' -f2 | tr -d '\r')
@@ -12,4 +11,3 @@ elif [ "$TLS" = "false" ]; then
 else
     echo "$CONF: unexpected tls value '$TLS'"
 fi
-EOF

@@ -1,4 +1,3 @@
-cat << 'EOF' > risk_level.sh
 #!/bin/bash
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <failed_attempt_count>" >&2
@@ -23,4 +22,3 @@ elif [ "$COUNT" -lt 15 ]; then
 else
     echo "Risk: HIGH ($COUNT failed attempts)"
 fi
-EOF

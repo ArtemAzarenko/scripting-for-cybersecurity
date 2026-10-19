@@ -1,4 +1,3 @@
-cat << 'EOF' > account_source.sh
 #!/bin/bash
 USERNAME=$1
 
@@ -9,4 +8,3 @@ elif grep -qx "$USERNAME" case/backups/users.old; then
 else
     echo "$USERNAME: UNKNOWN account (in neither list)"
 fi
-EOF

@@ -1,4 +1,3 @@
-cat << 'EOF' > nested_check.sh
 #!/bin/bash
 FILE=$1
 
@@ -13,4 +12,3 @@ if [ -f "$FILE" ]; then
 else
     echo "$FILE does not exist — skipping the line count entirely."
 fi
-EOF

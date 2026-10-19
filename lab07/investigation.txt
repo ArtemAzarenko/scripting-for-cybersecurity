@@ -1,0 +1,54 @@
+--- Alice Audit ---
+grep: case/backups/users.old: No such file or directory
+alice: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3
+--- Bob Audit ---
+grep: case/backups/users.old: No such file or directory
+bob: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3
+--- Eve Audit ---
+grep: case/backups/users.old: No such file or directory
+eve: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3
+--- David Audit ---
+grep: case/backups/users.old: No such file or directory
+david: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3
+--- Admin Audit ---
+grep: case/backups/users.old: No such file or directory
+admin: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3
+--- Root Audit ---
+grep: case/backups/users.old: No such file or directory
+root: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3
+--- Backup Audit ---
+grep: case/backups/users.old: No such file or directory
+backup: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3
+--- Oracle Audit ---
+grep: case/backups/users.old: No such file or directory
+oracle: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3
+--- Nobody Audit ---
+grep: case/backups/users.old: No such file or directory
+nobody: UNKNOWN account (unrecognized)
+Attempts metrics -> Failed: 0 | Accepted: 0
+Risk classification: NONE
+Exit status: 3

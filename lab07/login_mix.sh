@@ -1,4 +1,3 @@
-cat << 'EOF' > login_mix.sh
 #!/bin/bash
 LOG="case/logs/auth.log"
 
@@ -11,4 +10,3 @@ if grep -q "Failed password" "$LOG"; then
 else
     echo "$LOG contains no failed login attempts."
 fi
-EOF

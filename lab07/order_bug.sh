@@ -1,4 +1,3 @@
-cat << 'EOF' > order_bug.sh
 #!/bin/bash
 COUNT=$1
 
@@ -9,4 +8,3 @@ elif [ "$COUNT" -ge 10 ]; then
 else
     echo "Non-negative"
 fi
-EOF

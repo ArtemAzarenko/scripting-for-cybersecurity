@@ -1,4 +1,3 @@
-cat << 'EOF' > text_vs_number.sh
 #!/bin/bash
 A="10"
 B="9"
@@ -11,4 +10,4 @@ if [ "$A" -gt "$B" ]; then echo "  $A is greater than $B"; else echo "  $A is no
 
 echo "Using \\> (text ordering):"
 if [ "$A" \> "$B" ]; then echo "  '$A' sorts after '$B'"; else echo "  '$A' sorts before '$B'"; fi
-EOF
+

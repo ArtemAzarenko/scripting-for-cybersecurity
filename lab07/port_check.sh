@@ -1,4 +1,3 @@
-cat << 'EOF' > port_check.sh
 #!/bin/bash
 CONF=$1
 PORT=$(grep '^port=' "$CONF" | cut -d'=' -f2 | tr -d '\r')
@@ -12,4 +11,3 @@ elif [ "$PORT" -lt 1024 ]; then
 else
     echo "$CONF: port $PORT is unprivileged"
 fi
-EOF

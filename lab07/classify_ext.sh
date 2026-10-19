@@ -1,4 +1,3 @@
-cat << 'EOF' > classify_ext.sh
 #!/bin/bash
 FILE=$1
 EXT="${FILE##*.}"
@@ -14,4 +13,3 @@ elif [ "$EXT" = "sh" ] || [ "$EXT" = "py" ]; then
 else
     echo "$FILE : unrecognised extension '$EXT'"
 fi
-EOF

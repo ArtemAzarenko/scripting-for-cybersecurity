@@ -1,4 +1,3 @@
-cat << 'EOF' > debug_check.sh
 #!/bin/bash
 CONF=$1
 DEBUG=$(grep '^debug=' "$CONF" | cut -d'=' -f2 | tr -d '\r')
@@ -12,4 +11,3 @@ elif [ "$DEBUG" = "false" ]; then
 else
     echo "$CONF: unexpected debug value '$DEBUG'"
 fi
-EOF

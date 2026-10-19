@@ -1,4 +1,3 @@
-cat << 'EOF' > account_check.sh
 #!/bin/bash
 read -p "Enter a username: " USERNAME
 
@@ -14,4 +13,3 @@ elif [ "$USERNAME" != "guest" ]; then
 else
     echo "Guest account — should normally be disabled"
 fi
-EOF
