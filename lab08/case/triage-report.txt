@@ -1,0 +1,15 @@
+File Triage Report
+
+Python Files: 2
+Shell Scripts: 0
+Log Files: 1
+Configuration Files: 1
+Empty Files: 8
+Archives: 0
+
+Files Containing "admin":
+./triage-report.txt
+
+Detected File Types in Evidence:
+      8 empty
+      2 ASCII text
