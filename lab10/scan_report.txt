@@ -1,0 +1,10 @@
+File: case/logs/firewall.log | Lines: 1 | Failed Logins: 0
+0 | IOC Matches: 1
+--------------------------------------------------------
+File: case/logs/auth.log | Lines: 4 | Failed Logins: 2 | IOC Matches: 1
+--------------------------------------------------------
+File: case/logs/access.log | Lines: 1 | Failed Logins: 0
+0 | IOC Matches: 1
+--------------------------------------------------------
+Total IOC matches across collection: 3
+Exit code: 1

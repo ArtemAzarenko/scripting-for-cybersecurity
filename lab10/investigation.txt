@@ -1,0 +1,4 @@
+1. The final exit code is 1, which correctly reflects the report indicating anomalies were uncovered.
+2. 3 logs were scanned in total.
+3. The early break did not trigger because no individual log contained 3 or more unique IOC hits.
+4. Meaningful automated exit codes are crucial for cron jobs to easily alert monitoring pipelines of a non-zero exit state without needing heavy log parsing.
