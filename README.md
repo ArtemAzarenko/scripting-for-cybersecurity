@@ -14,4 +14,4 @@ This repository contains my practical work for the Scripting for Cybersecurity m
 - Lab 7 - Decisions in Bash — if, elif, else and Comparisons - DONE
 - Lab 8 - File Tests and Applied Decision-Making - DONE
 - Lab 9 - For Loops and Repetitive Security Tasks - DONE
-- Lab 10 - while Loops and Safer Iteration - DONE
+- Lab 10 - While Loops and Safer Iteration - DONE
