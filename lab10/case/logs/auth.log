@@ -1,0 +1,4 @@
+Oct 19 12:00:01 server sshd: Failed password for root from 198.51.100.77 port 49152 ssh2
+Oct 19 12:01:05 server sshd: Failed password for admin from 203.0.113.10 port 49153 ssh2
+Oct 19 12:02:10 server sshd: Accepted password for alice from 192.168.1.50 port 49154 ssh2
+Oct 19 12:03:15 server sshd: Accepted password for bob from 192.168.1.51 port 49155 ssh2
